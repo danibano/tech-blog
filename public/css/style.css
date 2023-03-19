@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #00ff11;
+    padding: 1rem;
+}
+
+a {
+    color: #00ff11;
+}
+
+a:visited {
+    color: #00ff11;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+    border: #00ff11 0.5rem solid;
+    margin: 1rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dash {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
